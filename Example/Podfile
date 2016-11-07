@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HBRecorder_Example' do
+  pod 'HBRecorder', :path => '../'
+
+  target 'HBRecorder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

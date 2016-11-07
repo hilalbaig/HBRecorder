@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4TV-VE-1Lq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Mzl-GV-Ehh">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="4TV-VE-1Lq" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Crj-yg-SR6">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="LU2-8X-KC5">
+                        <rect key="frame" x="0.0" y="436" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="OyD-5o-U68" kind="relationship" relationship="rootViewController" id="SYk-e8-LaU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zc5-nD-T68" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1070" y="185"/>
+        </scene>
+        <!--HBRecorder-->
+        <scene sceneID="bao-x9-0gY">
+            <objects>
+                <viewController id="OyD-5o-U68" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tm5-cB-uDV"/>
+                        <viewControllerLayoutGuide type="bottom" id="bIq-7K-2hj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JoM-PS-vGM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="7Jq-0O-pQL">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9AB-iI-E2q"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLp-z5-9G2">
+                                        <color key="backgroundColor" red="0.99550098180000002" green="0.094457797709999999" blue="0.004363148939" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="aku-rN-NsW"/>
+                                            <constraint firstAttribute="width" constant="150" id="d5Z-yo-9rv"/>
+                                        </constraints>
+                                        <state key="normal" title="Record">
+                                            <color key="titleColor" red="0.99506187440000005" green="0.99519044160000003" blue="0.99010753630000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="openRecorder:" destination="OyD-5o-U68" eventType="touchUpInside" id="A7j-wB-mgz"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMR-7f-BIV">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="4be-wu-uhG"/>
+                                    <constraint firstAttribute="height" constant="100" id="PEs-Kq-djC"/>
+                                </constraints>
+                                <state key="normal" image="play"/>
+                                <connections>
+                                    <action selector="playVideo:" destination="OyD-5o-U68" eventType="touchUpInside" id="WMX-WA-GSK"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="UMR-7f-BIV" firstAttribute="centerY" secondItem="9AB-iI-E2q" secondAttribute="centerY" id="MJh-XK-vA9"/>
+                            <constraint firstItem="UMR-7f-BIV" firstAttribute="centerX" secondItem="9AB-iI-E2q" secondAttribute="centerX" id="UiK-Gp-Dtx"/>
+                            <constraint firstItem="7Jq-0O-pQL" firstAttribute="top" secondItem="Tm5-cB-uDV" secondAttribute="bottom" constant="20" id="hNl-gZ-kfF"/>
+                            <constraint firstItem="7Jq-0O-pQL" firstAttribute="leading" secondItem="JoM-PS-vGM" secondAttribute="leadingMargin" id="pcV-IA-saP"/>
+                            <constraint firstItem="7Jq-0O-pQL" firstAttribute="trailing" secondItem="JoM-PS-vGM" secondAttribute="trailingMargin" id="s3A-Pu-Mr7"/>
+                            <constraint firstItem="bIq-7K-2hj" firstAttribute="top" secondItem="7Jq-0O-pQL" secondAttribute="bottom" constant="20" id="vho-0O-ztn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="HBRecorder" id="oYM-tO-Iqf"/>
+                    <connections>
+                        <outlet property="playVideoButton" destination="UMR-7f-BIV" id="MEv-Dv-lVp"/>
+                        <outlet property="thumbnailImageView" destination="9AB-iI-E2q" id="1Uk-N7-utY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dcm-Ty-wsn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-292" y="185"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="play" width="50" height="50"/>
+    </resources>
+</document>
