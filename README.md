@@ -68,8 +68,31 @@ The current version of HBRecorder requires:
 
 
 ### Contributors
-- [Hafeez Ahmed](https://github.com/imhafeezkpk)
-- [Hilal Baig](https://github.com/hilalbaig)
+- [Hafeez Ahmed](https://github.com/imhafeez) [![alt text][1.1]][1][![alt text][2.1]][2][![alt text][3.1]][3]
+- [Hilal Baig](https://github.com/hilalbaig) [![alt text][1.1]][4][![alt text][2.1]][5][![alt text][3.1]][6]
+
+
+
+<!-- links to your social media accounts -->
+[1]: http://www.twitter.com/imhafeezkpk
+[2]: https://www.facebook.com/imhafeezkpk
+[3]: http://www.github.com/imhafeez
+
+<!-- links to your social media accounts -->
+[4]: http://www.twitter.com/hilalbaig
+[5]: http://www.facebook.com/hilalbaig
+[6]: http://www.github.com/hilalbaig
+
+
+
+
+<!-- links to social media icons -->
+[1.1]: http://i.imgur.com/tXSoThF.png (twitter icon with padding)
+[2.1]: http://i.imgur.com/P3YfQoD.png (facebook icon with padding)
+[3.1]: http://i.imgur.com/0o48UoR.png (github icon with padding)
+
+
+
 
 
 ### License
