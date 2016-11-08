@@ -100,10 +100,12 @@ The current version of HBRecorder requires:
 [2.1]: http://i.imgur.com/fep1WsG.png (facebook icon without padding)
 [3.1]: http://i.imgur.com/9I6NRUm.png (github icon without padding)
 
+##### License
+- HBRecorder is available under the BSD license. See the [LICENSE file](https://github.com/hilalbaig/HBRecorder/blob/master/LICENSE).
+
 #Apps using HBRecorder
 
 If you are using HBRecorder in your app or know of an app that uses it, please add it to  [this list](https://github.com/hilalbaig/HBRecorder/wiki/Apps-using-HBRecorder).
 
-##### License
-- HBRecorder is available under the BSD license. See the [LICENSE file](https://github.com/hilalbaig/HBRecorder/blob/master/LICENSE).
+
 
