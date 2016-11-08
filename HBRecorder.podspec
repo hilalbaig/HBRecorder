@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'Recording with pause and animation feature.'
+  s.description      = 'Record videos with pause/start feature and beautiful animations between video segments.'
 
   s.homepage         = 'https://github.com/hilalbaig/HBRecorder'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
