@@ -102,7 +102,7 @@ The current version of HBRecorder requires:
 
 #Apps using HBRecorder
 
-If you are using HBRecorder in your app or know of an app that uses it, please add it to  [this list](http://cocoapods.org).
+If you are using HBRecorder in your app or know of an app that uses it, please add it to  [this list](https://github.com/hilalbaig/HBRecorder/wiki/Apps-using-HBRecorder).
 
 ##### License
 - HBRecorder is available under the BSD license. See the [LICENSE file](https://github.com/hilalbaig/HBRecorder/blob/master/LICENSE).
