@@ -12,12 +12,12 @@ platform :ios, '9.0'
 pod 'HBRecorder'
 ```
 
-### Usage
+# Usage
 
-#### Import Header
+### Import Header
 `#import <HBRecorder/HBRecorder.h>>`
 
-#### Present HBRecorder Controller
+### Present HBRecorder Controller
 
 ```objc
 NSBundle *bundle = [NSBundle bundleForClass:HBRecorder.class];
@@ -35,17 +35,18 @@ recorder.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 [self.navigationController pushViewController:recorder animated:YES];
 ```
 
-##### Delegates
+### Delegates
 ```objc
 - (void)recorder:( HBRecorder *  )recorder  didFinishPickingMediaWithUrl:(NSURL * )videoUrl;
 - (void)recorderDidCancel:( HBRecorder *  )recorder;
 ```
 
-##### Don’t Forget iOS 10 Privacy Settings
+### Don’t Forget iOS 10 Privacy Settings
 You have to add this below key in info.plist.
 ```ruby
 Privacy - Camera usage description
 ```
+#### Download Example to explore more
 
 
 
@@ -95,5 +96,5 @@ The current version of HBRecorder requires:
 
 
 ### License
-- HBRecorder is available under the BSD license. See the [LICENSE file](https://github.com/HBRecorder/HBRecorder/blob/master/LICENSE.txt).
+- HBRecorder is available under the BSD license. See the [LICENSE file](https://github.com/hilalbaig/HBRecorder/blob/master/LICENSE).
 
