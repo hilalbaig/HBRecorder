@@ -1,5 +1,22 @@
 # HBRecorder
-**HBRecorder** is a video recording tool with pause/start feature & beautiful animations between video segments. **HBRecorder** is build
+<img src="Screenshots/iPhone6plus%20Screenshot%201.png" width="230" height="408" />
+<img src="Screenshots/iPhone6plus%20Screenshot%202.png" width="230" height="408" />
+<img src="Screenshots/iPhone6plus%20Screenshot%203.png" width="230" height="408" />
+<img src="Screenshots/iPhone6plus%20Screenshot%204.png" width="230" height="408" />
+
+**HBRecorder** is a video recording tool with pause/start feature & beautiful animations between video segments. **HBRecorder** is build over SCRecorder.
+
+In short, here is a short list of the cool things you can do:
+
+ * Record multiple video segments
+ * Zoom/Focus easily
+ * Remove any record segment that you don't want
+ * Display the result into a convenient video player
+ * Save the record session for later somewhere using a serializable NSDictionary (works in NSUserDefaults)
+ * Add a configurable and animatable video filter using Core Image
+ * Add a UIView as overlay, so you can render anything you want on top of your video
+ * Merge and export the video using fine tunings that you choose
+ * Examples for iOS are provided.
 
 ### How to get started
 - install via [CocoaPods](http://cocoapods.org)
