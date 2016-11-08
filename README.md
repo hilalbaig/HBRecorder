@@ -2,7 +2,6 @@
 <img src="Screenshots/iPhone6plus%20Screenshot%201.png" width="230" height="408" />
 <img src="Screenshots/iPhone6plus%20Screenshot%202.png" width="230" height="408" />
 <img src="Screenshots/iPhone6plus%20Screenshot%203.png" width="230" height="408" />
-<img src="Screenshots/iPhone6plus%20Screenshot%204.png" width="230" height="408" />
 
 **HBRecorder** is a video recording tool with pause/start feature & beautiful animations between video segments. **HBRecorder** is build over SCRecorder.
 
