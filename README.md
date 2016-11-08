@@ -47,12 +47,6 @@ You have to add this below key in info.plist.
 Privacy - Camera usage description
 ```
 
-```objc
-<key>NSMicrophoneUsageDescription</key>
-<string>Please allow microphone</string>
-<key>NSCameraUsageDescription</key>
-<string>Please allow camera</string>
-```
 
 
 ### Requirements 
@@ -63,13 +57,18 @@ The current version of HBRecorder requires:
 
 ### Communication
 
-- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/hbrecorder). (Tag 'hbrecorder')
+- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/hbrecorder). (Tag 'HBRecorder')
 - If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/hbrecorder).
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
 - If you **want to contribute**, submit a pull request.
 
 ### Author
+- [Hilal Baig](https://github.com/hilalbaig)
+
+
+### Contributors
+- [Hafeez Ahmed](https://github.com/imhafeezkpk)
 - [Hilal Baig](https://github.com/hilalbaig)
 
 
