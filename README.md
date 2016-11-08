@@ -68,8 +68,8 @@ The current version of HBRecorder requires:
 
 
 ### Contributors
-- Hafeez Ahmed [![alt text][1.1]][1][![alt text][2.1]][2][![alt text][3.1]][3]
-- Hilal Baig [![alt text][1.1]][4][![alt text][2.1]][5][![alt text][3.1]][6]
+- [![alt text][1.1]][1][![alt text][2.1]][2][![alt text][3.1]][3] Hafeez Ahmed 
+- [![alt text][1.1]][4][![alt text][2.1]][5][![alt text][3.1]][6] Hilal Baig 
 
 
 
