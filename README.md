@@ -12,12 +12,12 @@ platform :ios, '9.0'
 pod 'HBRecorder'
 ```
 
-##### Usage
+### Usage
 
-Step #1 import
+#### Import Header
 `#import <HBRecorder/HBRecorder.h>>`
 
-Step #2 present
+#### Present HBRecorder Controller
 
 ```objc
 NSBundle *bundle = [NSBundle bundleForClass:HBRecorder.class];
@@ -39,6 +39,19 @@ recorder.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 ```objc
 - (void)recorder:( HBRecorder *  )recorder  didFinishPickingMediaWithUrl:(NSURL * )videoUrl;
 - (void)recorderDidCancel:( HBRecorder *  )recorder;
+```
+
+##### Don’t Forget iOS 10 Privacy Settings
+You have to add this below key in info.plist.
+```ruby
+Privacy - Camera usage description
+```
+
+```objc
+<key>NSMicrophoneUsageDescription</key>
+<string>Please allow microphone</string>
+<key>NSCameraUsageDescription</key>
+<string>Please allow camera</string>
 ```
 
 
