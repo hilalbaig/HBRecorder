@@ -35,7 +35,7 @@ recorder.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
 [self.navigationController pushViewController:recorder animated:YES];
 ```
 
-### Delegates
+### Delegates <HBRecorderProtocol>
 ```objc
 - (void)recorder:( HBRecorder *  )recorder  didFinishPickingMediaWithUrl:(NSURL * )videoUrl;
 - (void)recorderDidCancel:( HBRecorder *  )recorder;
