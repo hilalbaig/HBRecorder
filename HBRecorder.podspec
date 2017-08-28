@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HBRecorder'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Video recording - HBRecorder.'
 
 # This description is used to generate tags and improve search results.
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.description      = 'Record videos with pause/start feature and beautiful animations between video segments.'
 
   s.homepage         = 'https://github.com/hilalbaig/HBRecorder'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://raw.githubusercontent.com/hilalbaig/HBRecorder/master/Screenshots/iPhone6plus%20Screenshot%201.png', 'https://raw.githubusercontent.com/hilalbaig/HBRecorder/master/Screenshots/iPhone6plus%20Screenshot%203.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'HilalB' => 'hilal.beg@gmail.com' }
   s.source           = { :git => 'https://github.com/hilalbaig/HBRecorder.git', :tag => s.version.to_s }
