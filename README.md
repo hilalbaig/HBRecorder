@@ -53,6 +53,9 @@ recorder.bottomTitle = @"HilalB - ©";
 //Set recorder max recording duration
 recorder.maxRecordDuration = 60 * 3;
 
+//Set segment max recording duration
+recorder.maxSegmentDuration = 10;
+
 //Set recorded movie name
 recorder.movieName = @"MyAnimatedMovie";
 

@@ -392,7 +392,23 @@
 
 - (void)recorder:(SCRecorder *)recorder didAppendVideoSampleBufferInSession:(SCRecordSession *)recordSession {
     [self updateTimeRecordedLabel];
+    [self checkMaxSegmentDuration:recorder];
+    
+    
 }
+
+-(void)checkMaxSegmentDuration:(SCRecorder *)recorder {
+    if(_maxSegmentDuration) {
+        CMTime suggestedMaxSegmentDuration = CMTimeMake(_maxSegmentDuration, 1);
+        if (CMTIME_IS_VALID(suggestedMaxSegmentDuration)) {
+            if (CMTIME_COMPARE_INLINE(recorder.session.currentSegmentDuration, >=, suggestedMaxSegmentDuration)) {
+                [_recorder pause];
+                [self.recBtn setImage:self.recStartImage forState:UIControlStateNormal];
+            }
+        }
+    }
+}
+
 
 - (void)handleTouchDetected:(SCTouchDetector*)touchDetector {
     if (touchDetector.state == UIGestureRecognizerStateBegan) {

@@ -119,6 +119,8 @@
     recorder.topTitle = @"Top title";
     recorder.bottomTitle = @"HilalB - ©";
     recorder.maxRecordDuration = 60 * 3;
+    recorder.maxSegmentDuration = 10;
+    
     recorder.movieName = @"MyAnimatedMovie";
     
     

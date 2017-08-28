@@ -31,6 +31,7 @@
 @property (strong, nonatomic) NSString *topTitle;
 @property (strong, nonatomic) NSString *bottomTitle;
 @property (assign, nonatomic) int64_t maxRecordDuration;
+@property (assign, nonatomic) int64_t maxSegmentDuration;
 @property (strong, nonatomic) NSString *movieName;
 
 
